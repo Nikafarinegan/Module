@@ -6,9 +6,9 @@
 ```
 allprojects {
  repositories {
-		...
-	maven { url 'https://jitpack.io' }
-	}
+    ...
+    maven { url 'https://jitpack.io' }
+  }
 }
   ```
   
@@ -16,6 +16,6 @@ allprojects {
   **Step 2. Add the dependency**
 ```
 dependencies {
-  com.github.Nikafarinegan:Module:v1.0.0'
+  implementation 'com.github.Nikafarinegan:Module:v1.0.0'
 }
 ```
