@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="choose">انتخاب کنید</string>
+    <string name="date">تاریخ</string>
+    <string name="no_data">داده ای برای نمایش وجود ندارد</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="search">جستجو کنید</string>
+    <string name="enter_search_word">کلمه جستجو خود را وارد نمایید</string>
+    <string name="no">خیر</string>
+    <string name="yes">بله</string>
+    <string name="warning">هشدار</string>
+    <string name="information">جهت اطلاع</string>
+    <string name="success">موفقیت آمیز</string>
+    <string name="new_changes_release">امکانات جدید این نسخه</string>
+    <string name="changes_list">لیست تغییرات</string>
+    <string name="understand">متوجه شدم</string>
+    <string name="please_wait">لطفا صبور باشید..</string>
+    <string name="error">خطا</string>
+    <string name="ok">تایید</string>
+    <string name="cancel">انصراف</string>
+    <string name="wait">لطفا منتظر بمانید</string>
+    <string name="security_problem">برنامه به دلیل مشکلات امنیتی دستگاه شما قادر به پاسخگویی نمی باشد.</string>
+    <string name="downloading">در حال دانلود</string>
+    <string name="set_permission_add_attachment">برای افزودن ضمیمه لطفا دسترسی های لازم را اعطا فرمایید.</string>
+    <string name="set_permission_for_operations">برای انجام عملیات دسترسی های لازم را تایید نمایید.</string>
+    <string name="emulator_detection">Emulator Detection</string>
+    <string name="app_not_run_on_emulator">امکان اجرای برنامه برروی دستگاه های شبیه ساز وجود ندارد.</string>
+    <string name="reverse_engineering_tools_detection">RE Tools Detection</string>
+    <string name="root_detection">Root Detection</string>
+    <string name="your_device_is_root">برنامه به دلیل Root بودن دستگاه شما قادر به پاسخگویی نمی باشد.</string>
+    <string name="is_exist_reverse_engineering_tools">برنامه به دلیل وجود اپلیکیشن های غیرامن و مخرب برروی دستگاه شما قادر به پاسخگویی نمی باشد.</string>
+    <string name="parallel_space_app_exist">برنامه های  ParallelSpace</string>
+    <string name="is_exist_parallel_space_app">به دلیل وجود اپلیکیشن های مخرب برروی گوشی شما، برنامه قادر به پاسخگویی نمی باشد.</string>
+    <string name="secret_key_name">biometric_sample_encryption_key</string>
+    <string name="prompt_info_title">ورود با اثر انگشت</string>
+    <string name="prompt_info_subtitle">اثر انگشت خود را برای ورود دوعاملی در قسمت حسگر اثرانگشت قرار دهید</string>
+    <string name="prompt_info_use_app_password">ورود با نام کاربری</string>
+    <string name="error_operation">خطا در انجام عملیات</string>
+    <string name="success_operation">عملیات با موفقیت انجام شد</string>
+    <string name="failed_operation">عملیات ناموفق بود.. مجددا تلاش کنید</string>
+    <string name="enter_data">اطلاعات خود را وارد نمایید</string>
+    <string name="send">ارسال</string>
+    <string name="today">امروز</string>
+    <string name="no_internet_connection">اتصال اینترنت وجود ندارد</string>
+    <string name="choose_internet_or_choose_offline_mode">برای استفاده از برنامه اینترنت خود را روشن نمایید یا با حالت آفلاین وارد شوید.</string>
+    <string name="goto_offline_mode">برو به حالت آفلاین</string>
+    <string name="wifi_internet">اینترنت wifi</string>
+    <string name="mobile_internet">اینترنت گوشی</string>
+    <string name="login_with_offline_mode">ورود با حالت آفلاین</string>
+    <string name="offline_mode">حالت آفلاین</string>
+    <string name="connect_to_internet_update">داده ای برای نمایش وجود ندارد.\nابتدا اینترنت دستگاه را متصل کرده سپس مجدد وارد شوید.</string>
+
+
+</resources>

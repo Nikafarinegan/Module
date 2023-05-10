@@ -1,0 +1,4 @@
+rootProject.name='Modules'
+include ':app'
+include ':modules'
+include ':timepicker'

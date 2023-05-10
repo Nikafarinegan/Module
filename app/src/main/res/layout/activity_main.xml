@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.awlrhm.awlrhmmodule.MainActivity"
+    android:background="@color/white">
+
+    <ir.awlrhm.modules.view.Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:sp_loadingColor="@color/red_700"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ir.awlrhm.modules.view.Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner"
+        app:btn_textColor="@color/red_A100"
+        app:btn_border="@drawable/border"
+        app:btn_icon_direction="LEFT"
+        app:btn_textSize="22sp"
+        app:btn_title="Hi Programmer"
+        app:btn_srcCompat="@drawable/ic_warning"/>
+
+    <ir.awlrhm.modules.view.RecyclerView
+        android:id="@+id/rclItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn"
+        android:visibility="gone"/>
+
+    <include layout="@layout/awlrhm_layout_no_data"/>
+
+    <ir.awlrhm.modules.objectLoading.ObjectLoading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rclItem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:obl_source="@drawable/ic_bulb"
+        app:obl_color="@color/blue_500"
+        app:obl_borderColor="BLUE"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

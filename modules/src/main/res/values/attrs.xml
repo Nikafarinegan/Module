@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DatePicker">
+        <attr name="dp_title" format="string|reference" />
+        <attr name="dp_titleColor" format="integer|reference" />
+        <attr name="dp_hint" format="string|reference" />
+        <attr name="dp_border" format="integer|reference" />
+        <attr name="dp_background" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Spinner">
+        <attr name="sp_title" format="string|reference" />
+        <attr name="sp_titleColor" format="integer|reference" />
+        <attr name="sp_loadingColor" format="integer|reference" />
+        <attr name="sp_hint" format="string|reference" />
+        <attr name="sp_border" format="integer|reference" />
+        <attr name="sp_background" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Button">
+        <attr name="btn_title" format="string|reference" />
+        <attr name="btn_border" format="integer|reference" />
+        <attr name="btn_srcCompat" format="integer|reference" />
+        <attr name="btn_textColor" format="integer|reference" />
+        <attr name="btn_textSize" format="dimension|reference" />
+        <attr name="btn_icon_direction" format="enum">
+            <enum name="RIGHT" value="0" />
+            <enum name="LEFT" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PersianDatePicker">
+        <attr name="minYear" format="integer" />
+        <attr name="maxYear" format="integer" />
+        <attr name="selectedYear" format="integer" />
+        <attr name="selectedMonth" format="integer" />
+        <attr name="selectedDay" format="integer" />
+        <attr name="displayMonthNames" format="boolean" />
+        <attr name="yearRange" format="integer" />
+        <attr name="displayDescription" format="boolean" />
+        <attr name="numberPickerTheme" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ObjectLoading">
+        <attr name="obl_color" format="integer|reference" />
+        <attr name="obl_source" format="integer|reference" />
+        <attr name="obl_hasBorder" format="enum">
+            <enum name="TRUE" value="1" />
+            <enum name="FALSE" value="0" />
+        </attr>
+        <attr name="obl_borderColor" format="enum">
+            <enum name="WHITE" value="0"/>
+            <enum name="BLACK" value="1"/>
+            <enum name="BLUE" value="2"/>
+            <enum name="ORANGE" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
