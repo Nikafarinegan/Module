@@ -3,8 +3,6 @@ package ir.awlrhm.modules.extentions
 import android.graphics.Color
 import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.FragmentActivity
-import com.michaldrabik.classicmaterialtimepicker.CmtpTimeDialogFragment
-import com.michaldrabik.classicmaterialtimepicker.utilities.setOnTime24PickedListener
 import ir.awlrhm.modules.enums.MessageStatus
 import ir.awlrhm.modules.security.CheckEmulatorUtil
 import ir.awlrhm.modules.security.CheckReverseEngineeringToolsUtil
@@ -17,6 +15,8 @@ import ir.awlrhm.modules.view.datePicker.PersianDatePickerDialog
 import ir.awlrhm.modules.view.downloadVersion.DownloadNewVersion
 import ir.awlrhm.modules.view.downloadVersion.OnDownloadListener
 import ir.awlrhm.modules.view.progress.ProgressDialog
+import ir.awrhm.module.TimeDialogFragment
+import ir.awrhm.module.utilities.setOnTime24PickedListener
 import ir.awrhm.modules.R
 import kotlin.system.exitProcess
 
@@ -144,9 +144,9 @@ fun FragmentActivity.showDateDialog(
 fun FragmentActivity.showTimePickerDialog(
     callback: (String) -> Unit
 ){
-    val timePicker = CmtpTimeDialogFragment.newInstance()
+    val timePicker = TimeDialogFragment.newInstance()
     timePicker.setInitialTime24(12, 0)
-    timePicker.setOnTime24PickedListener { time24 ->
+    timePicker.setOnTime24PickedListener {time24 ->
         callback.invoke("${time24.hour} : ${time24.minute}")
     }
     timePicker.show(supportFragmentManager, "TimeDialog")

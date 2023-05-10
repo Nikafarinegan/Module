@@ -10,7 +10,6 @@ import android.view.View
 import android.widget.TextView
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.content.ContextCompat
-import androidx.fragment.app.FragmentActivity
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.snackbar.Snackbar
 import com.karumi.dexter.Dexter
@@ -24,10 +23,9 @@ import com.karumi.dexter.listener.single.PermissionListener
 import ir.awlrhm.modules.enums.FlashbarDuration
 import ir.awlrhm.modules.enums.MessageStatus
 import ir.awlrhm.modules.utils.OnPermissionListener
-import ir.awlrhm.modules.view.ActionDialog
-import ir.awrhm.awrhm_flashbar.Flashbar
-import ir.awrhm.awrhm_flashbar.Flashbar.Companion.DURATION_LONG
-import ir.awrhm.awrhm_flashbar.Flashbar.Companion.DURATION_SHORT
+import ir.awrhm.flashbar.Flashbar
+import ir.awrhm.flashbar.Flashbar.Companion.DURATION_LONG
+import ir.awrhm.flashbar.Flashbar.Companion.DURATION_SHORT
 import ir.awrhm.modules.R
 import java.io.File
 

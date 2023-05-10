@@ -24,8 +24,6 @@ class Adapter(
 
     inner class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun onBind(model: TestModel) {
-            val context = itemView.context
-
             itemView.txtStep.text = model.title
         }
     }

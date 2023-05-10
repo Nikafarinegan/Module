@@ -9,15 +9,15 @@ import android.view.inputmethod.EditorInfo
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import ir.awlrhm.modules.base.BaseDialogFragment
-import ir.awlrhm.modules.enums.Status
-import ir.awlrhm.modules.models.DynamicAdapter
-import ir.awlrhm.modules.models.DynamicModel
-import ir.awrhm.modules.R
 import ir.awlrhm.modules.enums.MessageStatus
+import ir.awlrhm.modules.enums.Status
 import ir.awlrhm.modules.extentions.hideKeyboard
 import ir.awlrhm.modules.extentions.showKeyboard
 import ir.awlrhm.modules.extentions.yToast
+import ir.awlrhm.modules.models.DynamicAdapter
+import ir.awlrhm.modules.models.DynamicModel
 import ir.awlrhm.modules.view.RecyclerView
+import ir.awrhm.modules.R
 import kotlinx.android.synthetic.main.awlrhm_searchable_dialog.*
 
 class SearchablePagingDialog<T>(
